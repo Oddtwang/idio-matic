@@ -1,0 +1,344 @@
+body {
+  background-color: #f9f9fa;
+  font-family     : "Poppins", sans-serif; /* Google font */
+  font-size       : 24px;
+  color           : #158374 ;
+}
+
+
+.content {
+    margin        : auto ;
+    width         : 90%    ;
+    min-height    : 50px   ;
+    overflow      : auto   ;
+    text-align    : center ;
+}
+
+.header {
+    background-color : #f9f9fa ;
+    margin           : auto ;
+    color            : #eb5600 ;
+    font-size        : 100px;
+    padding          : 8px;
+    font-family      : "Ewert", sans-serif;  /* Circus-style Google font */
+}
+
+.header a {
+    color            : #eb5600 ;
+    font-family      : "Ewert", sans-serif;
+    text-decoration  : none; /* Don't underline links */
+}
+    
+#index-submit {
+    margin: 10px;
+    margin-left: 98px;
+    width: 100px;
+}
+
+.index-login {
+    margin: auto;
+    width: 25%;
+    margin-top: 50px;
+}
+
+.input-box-style {
+    padding: 5px;
+    margin: 3px;
+    margin-left: 0px;
+    font-size: 17px;
+}
+
+.login-errors {
+    display: none;
+    width: 270px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #794135;
+    border-color: red;
+    border: solid;
+    padding: 12px;
+}
+
+
+.annotate-lang-selector { 
+    margin: auto;
+    width: 272px;
+    margin-top: 19px;
+    font-size: 20px;
+}
+
+.ann-idiom-header {
+    width: 600px;
+    margin-top: 15px;
+    margin-left: 2px;
+    color: #003eff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ann-sentence-loading {
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.ann-sentence-samples {
+    margin: auto;
+    width: 92%;
+    margin-top: 18px;
+    text-align: center;
+    border: solid;
+    -moz-box-shadow: 0px 0px 14px #ccc;
+    -webkit-box-shadow: 0px 0px 14px #ccc;
+    box-shadow: 0px 0px 14px #ccc;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-color: #ccc;
+    min-height: 300px;
+    height : auto;
+    overflow-x: auto;
+    font-size: 24pt;
+    margin-bottom: 40px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+
+.ann-sentence-compare {
+    margin: auto;
+    width: 92%;
+    margin-top: 18px;
+    text-align: center;
+    border: solid;
+    -moz-box-shadow: 0px 0px 14px #ccc;
+    -webkit-box-shadow: 0px 0px 14px #ccc;
+    box-shadow: 0px 0px 14px #ccc;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-color: #ccc;
+    min-height: 100px;
+    height : auto;
+    overflow-x: auto;
+    font-size: 20pt;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+
+
+.idiom_action_sents {
+    text-align: left;
+    margin-left: 12px;
+    margin-bottom: 13px;
+    border-bottom: solid;
+    border-color: #fffa90;
+    margin-right: 10px;
+    padding-bottom: 6px;
+    margin-top:6px;
+}
+
+.idiom_action_context {
+    display: block;
+    color: #ededed7a;
+    margin-bottom: 5px;
+}
+
+.idiom_action_target {
+    display: block;
+    color: black;
+}
+
+.idiom_action_source a{
+    font-size: 15px;
+    text-align: right;
+    margin-left: 1px;
+}
+
+.ann-form {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.annotate-idiom-selector {
+    width: 90%;
+    margin: auto;
+    margin-top: 13px;
+    padding: 4px;
+    font-size: 35px;
+}
+
+.annotate-idiom-selector a {
+    font-size: 30px;
+    margin-left: 14px;
+    color: #dad55e;
+    text-decoration: none;
+}
+
+
+.ann-picked-sentences {
+    margin: auto;
+    width: 95%;
+    margin-top: 25px;
+    max-width: 800px;
+
+    margin-top: 13px;
+    border: solid;
+    padding: 6px;
+    overflow: hidden;
+    border: solid;
+    -moz-box-shadow: 0px 0px 14px #ccc;
+    -webkit-box-shadow: 0px 0px 14px #ccc;
+    box-shadow: 0px 0px 14px #ccc;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-color: #ccc;
+    font-size:15px
+    
+}
+
+.ann-sent-meaning {
+    color: #e9c46a;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+#ann_total_sents {
+    font-size: 25px;
+    color: #f1a899;
+    margin: auto;
+    margin-top: 15px;
+    width: 480px;
+}
+
+.annn-sent-meaning-sents {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.ann-add-form { 
+    margin: auto;
+    width: 95%;
+    margin-top: 13px;
+    border: solid;
+    padding: 6px;
+    overflow: hidden;
+    border: solid;
+    -moz-box-shadow: 0px 0px 14px #ccc;
+    -webkit-box-shadow: 0px 0px 14px #ccc;
+    box-shadow: 0px 0px 14px #ccc;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-color: #ccc;
+    font-size:15px
+}
+
+.ann-holdall {
+    clear:both;
+    width:99%;
+}
+
+#target {
+    clear: both;
+    float: left ;
+}
+
+.ann-filter-label {
+    float: left;
+    margin-top: 5px;
+    margin-left: 18px;
+}
+
+#annSentFilter {
+    margin: auto;
+    margin-top: 11px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    clear: both;
+    /* width: 875px; */
+    border-bottom: solid;
+    height: 75px;
+    width: 98%;
+    background-color: #dad55e;
+}
+
+.ann-filter-button {
+    margin-top: 4px;
+    margin-left: -35px;
+    width: 125px;
+}
+
+.submit-all {
+    width: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+
+.submit_results {
+    width: 700px;
+    margin: auto;
+}
+
+
+.ann-get-form { 
+    margin: auto;
+    width: 95%;
+    margin-top: 13px;
+    min-height: 200px;
+    border: solid;
+    padding: 6px;
+    overflow: hidden;
+    border: solid;
+    -moz-box-shadow: 0px 0px 14px #ccc;
+    -webkit-box-shadow: 0px 0px 14px #ccc;
+    box-shadow: 0px 0px 14px #ccc;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-color: #ccc;
+    font-size:15px
+}
+
+.idiom_url_response {
+    clear: both;
+    margin-top: 15px;
+    float: left;
+    margin-left: 5px;
+}
+
+.annon-count-p2 { 
+    margin-top: 14px;
+    margin-left: 50px;
+    text-align: center;
+    color: #f1a899;
+}
+
+.completed_note { 
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 22px;
+    color: darkslategrey;
+}
+
+.idiom_agree {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.existing_annotations { 
+    clear: both;
+    margin-left: 50px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #922711;
+    text-decoration: solid;
+    font-size: 17px;
+}

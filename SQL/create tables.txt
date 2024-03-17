@@ -1,0 +1,35 @@
+
+
+CREATE TABLE IF NOT EXISTS sessions (
+	session_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY	
+	)
+	;
+
+
+CREATE TABLE IF NOT EXISTS mwes (
+	mwe_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	mwe VARCHAR(100)
+	)
+	;
+	
+	
+CREATE TABLE IF NOT EXISTS sentences (
+	sent_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY	,
+	mwe_id INT NOT NULL,
+	sentence VARCHAR(300),
+	label VARCHAR(10)
+	)
+	;
+	
+	
+CREATE TABLE IF NOT EXISTS annotations (
+	annot_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	session_id INT NOT NULL,
+	mwe_id INT NOT NULL,
+	sent_id INT NOT NULL,
+	annot_by VARCHAR(10) NOT NULL,
+	label VARCHAR(10) NOT NULL,
+	explanation VARCHAR(10000),
+	correct BOOL
+	)
+	;
